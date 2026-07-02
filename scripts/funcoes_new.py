@@ -1,6 +1,7 @@
-﻿import requests
+import requests
 import pandas as pd
 from datetime import datetime
+
 
 def buscar_cotacoes():
     url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL"
